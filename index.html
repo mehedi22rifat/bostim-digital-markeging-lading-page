@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- css link -->
+   <link rel="stylesheet" href="index.css">
   <!-- tailwind css and diasyui -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -23,7 +25,7 @@
 
 <body class="max-w-screen-2xl mx-auto container">
   <!-- navbar here -->
-  <section class="">
+  <section class="bg-slate-50">
     <div>
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -74,7 +76,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl"><img src="./images/Group 2.png" alt=""> <span
+          <a class="btn hover:scale-105 transition-all duration-300  btn-ghost text-xl"><img src="./images/Group 2.png" alt=""> <span
               class="text-3xl font-bold">Boostim</span></a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -131,13 +133,45 @@
                 </path>
               </svg>
             </span>
-            <span class="relative">Get started</span>
+            <span class="relative hover:scale-105 transition-all duration-300 ">Get started</span>
           </a>
-          <img class="hidden md:flex" src="./images/Frame 427320692.png" alt="">
+          <img class="hidden md:flex hover:scale-105 transition-all duration-300 " src="./images/Frame 427320692.png" alt="">
         </div>
       </div>
     </div>
   </section>
+  <!-- navbar end here -->
+
+  <!-- banner section here -->
+   <section class="mt-12 container px-5">
+      <div>
+
+         <div class="flex gap-4 flex-col md:flex-row">
+             <div class="flex-1">
+             <h1 class="lg:text-6xl md:text-5xl text-4xl font-semibold">Stay ahead of the curve with our forward-thinking </h1>
+             <p class="py-4 md:py-8 font-semibold text-slate-600">An award-winning SEO agency with disciplines in digital marketing, design, and website development. focused on understanding you.</p>
+            
+            </div>
+
+             <div class="flex-1">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-1">
+                 <div>
+                  <div class="relative">
+                    <img class="absolute hover:scale-105 transition-all duration-500 top-[60px] left-20 bg-slate-800 px-2 py-4 rounded-full" src="./images//Vector (2).png" alt="">
+                   <img class="pt-8 md:w-[300px] w-full h-[270px] borderRadius" src="./images//premium_photo-1690303193720-38d825579eef.avif" alt="">
+                 </div>
+                 </div>
+                 <div class="md:w-[270px] md:space-y-4 space-y-12 md:p-8 p-4 mt-9 w-full h-[240px] bg-slate-100 rounded-lg">
+                   <h1 class="md:text-6xl text-5xl font-bold hover:scale-105 transition-all duration-500">230+</h1>
+                   <p class="font-semibold text-slate-700 text-base">some big companies that we work with, and trust us very much</p>
+                   <img src="./images/Group 427320840.png" alt="">
+                 </div>
+                </div>
+             </div>
+         </div>
+
+      </div>
+   </section>
 </body>
 
 </html>
