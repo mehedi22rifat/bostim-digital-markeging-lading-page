@@ -268,35 +268,38 @@
 
     <!-- another div -->
     <div class="flex gap-5 flex-col md:flex-row py-16">
-      <div class="bg-gradient-to-r rounded-2xl from-black to-gray-700 md:w-96 w-full p-7">
-        <div>
+      <div class="md:w-96 w-full p-7 relative bg-cover bg-center flex items-center justify-center rounded-xl" style="background-image: url('./images/bg-img/bg-1.png');">
+        <div class="absolute inset-0 rounded-xl"></div> <!-- Added rounded-xl here -->
+        <div class="relative z-10"> <!-- Added relative to keep content above the overlay -->
           <h1 class="text-slate-300 items-start font-bold md:text-5xl text-4xl">920<span class="text-green-400">+</span></h1>
-          <p class="font-medium text-slate-500 pt-3">Project finish with superbly</p>
+          <p class="font-medium text-slate-400 pt-3">Project finish with superbly</p>
           <!--  -->
           <div class="flex space-x-2 pt-24 flex-col md:flex-row">
             <div class="flex -space-x-2 overflow-hidden p-2">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/men/51.jpg" alt="">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/women/4.jpg" alt="">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/men/34.jpg" alt="">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/women/6.jpg" alt="">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/men/9.jpg" alt="">
               <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 tranform duration-100"
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-gray-200 hover:scale-105 transform duration-100"
                 src="https://randomuser.me/api/portraits/women/9.jpg" alt="">
-            </div><span class="text-3xl font-bold text-slate-300">+</span>
+            </div>
+            <span class="text-3xl font-bold text-slate-300">+</span>
           </div>
         </div>
       </div>
+      
       <div class="flex-1 relative">
         <div class="relative">
           <!-- Main Image with Gradient Overlay and Rounded Corners -->
@@ -323,7 +326,7 @@
 
   <!-- product by cetagory section -->
   <section class="max-w-screen-2xl mx-auto container px-5 pb-10">
-    <div class="bg-slate-900 rounded-2xl px-4 pb-12">
+    <div class=" rounded-2xl px-4 pb-12 relative bg-cover" style="background-image: url('./images/bg-img/bg-3.png');">
       <div>
         <h1 class="md:text-[40px] text-2xl font-semibold text-slate-200 md:px-10 px-3 text-center pt-5 md:py-10">
           Real-world examples of how we have helped companies achieve their marketing objectives.</h1>
