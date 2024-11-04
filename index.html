@@ -25,11 +25,11 @@
   </style>
 </head>
 
-<body class="max-w-screen-2xl mx-auto container bg-slate-100">
+<body class="max-w-screen-2xl mx-auto container">
   <!-- navbar here -->
-  <section class="bg-slate-100">
-    <div>
-      <div class="navbar bg-base-100">
+  <section class="bg-white">
+    <div class="bg-white">
+      <div class="navbar shadow-sm md:py-5">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -172,7 +172,7 @@
             </div>
             <div
               class="md:w-[270px]  md:mr-12 md:space-y-4 space-y-12 md:p-8 p-4 mt-9 w-full h-[240px] bg-slate-100 shadow-xl rounded-lg">
-              <h1 class="md:text-6xl text-5xl font-bold hover:scale-105 transition-all duration-500">230+</h1>
+              <h1 class="md:text-6xl text-4xl font-bold hover:scale-105 transition-all duration-500">230+</h1>
               <p class="hover:scale-105 transition-all duration-500 font-semibold text-slate-700 text-base">some big
                 companies that we work with, and trust us very much</p>
               <img class="hover:scale-105 transition-all duration-500" src="./images/Group 427320840.png" alt="">
@@ -208,15 +208,22 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 bg-slate-900 rounded-xl">
-        <div class="flex md:gap-4 gap-1 h-full">
-          <div class="text-slate-300 flex-1 md:p-6 p-4">
+      <div class="relative flex-1 h-[233px] bg-cover bg-center flex items-center justify-center rounded-xl" style="background-image: url('./images/bg-img/bg-2.png');">
+        <!-- Overlay to darken the background image slightly -->
+        <div class="absolute inset-0"></div>
+      
+        <!-- Content container with text and buttons, positioned above the background -->
+        <div class="relative z-10 flex flex-col md:flex-row gap-4 w-full max-w-5xl p-8 text-white rounded-xl">
+          <!-- Left Text Content -->
+          <div class="flex-1 space-y-4 md:p-6">
             <div class="flex items-center gap-3">
               <hr class="w-1/6 border-slate-300">
-              <p>Drive More Traffic and Sales</p>
+              <p class="text-slate-300">Drive More Traffic and Sales</p>
             </div>
-            <h1 class="text-3xl font-semibold pt-9">Drive more traffic and product sales</h1>
+            <h1 class="text-3xl md:text-4xl font-semibold">Drive more traffic and product sales</h1>
           </div>
+      
+          <!-- Right Button Images -->
           <div class="flex-1 flex items-end">
             <div class="flex gap-3 mb-0">
               <!-- Styled images as buttons aligned to the bottom -->
@@ -236,6 +243,8 @@
           </div>
         </div>
       </div>
+      
+      
     </div>
 
 
@@ -260,7 +269,7 @@
     <div class="flex gap-5 flex-col md:flex-row py-16">
       <div class="bg-gradient-to-r rounded-2xl from-black to-gray-700 md:w-96 w-full p-7">
         <div>
-          <h1 class="text-slate-300 items-start font-bold text-5xl">920<span class="text-green-400">+</span></h1>
+          <h1 class="text-slate-300 items-start font-bold md:text-5xl text-4xl">920<span class="text-green-400">+</span></h1>
           <p class="font-medium text-slate-500 pt-3">Project finish with superbly</p>
           <!--  -->
           <div class="flex space-x-2 pt-24 flex-col md:flex-row">
@@ -341,7 +350,7 @@
 
           <!-- See Details Image Positioned in the Center with Full Rounded Corners -->
           <img src="./images/seeDetails.png" alt=""
-            class="absolute inset-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-24 h-24 hover:scale-125 transition-all duration-500">
+            class="absolute inset-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-16 h-16 md:w-24 md:h-24 hover:scale-125 transition-all duration-500">
         </div>
 
         <div class="relative">
@@ -603,6 +612,10 @@
             </div>
           </div>
       </section>
+
+      <!-- hero section -->
+     
+      
 </body>
 
 </html>
